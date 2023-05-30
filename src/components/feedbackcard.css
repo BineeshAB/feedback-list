@@ -1,0 +1,50 @@
+.card{
+    position: relative;
+    width: 100%;
+    margin: 40px 0;
+    padding: 30px 20px;
+    height: auto;
+    background: var(--darkSecondaryColor);
+    border-radius: 5px;
+    color: var(--darkTextColor);
+}
+.feedback-rating{
+    position: absolute;
+    border-radius: 100%;
+    border: 1px solid #FFF;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: -13px;
+    left: -13px;
+    background: var(--darkPrimaryColor);
+    color: var(--darkTextColor);
+    font: 1.1rem;
+    font-weight: 500;
+}
+.card-body{
+    padding: 20px 30px;
+    font-size: 1.1rem;
+    text-align: justify;
+}
+.card button{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.card .close{
+    position: absolute;
+    top: 13px;
+    right: 13px;
+}
+.card .like-counter{
+    text-align: right;
+}
+.card .dislike-btn{
+    transform: scaleX(-1);
+}
+.no-of-likes{
+    margin: 0 10px;
+}

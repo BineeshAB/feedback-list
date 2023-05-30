@@ -1,0 +1,54 @@
+.form-card{
+    width: 98%;
+    margin: 50px 0;
+    padding: 20px 30px;
+    background: var(--lightBgColor);
+    color: #000;
+    border-radius: 3px;
+}
+.form-card .form-title{
+    margin-top: 15px;
+    margin-bottom: 30px;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-align: center;
+}
+.form-group{
+    border: 1px solid #acacac;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: grid;
+    flex-direction: row;
+    grid-template-columns: 87% 13%;
+    grid-gap: 20px;
+}
+.text-box-div input[type="text"]{
+    width: 100%;
+    padding: 7px 0px;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 1.1rem;   
+}
+.submit-btn-div button{
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: var(--darkAccentColor);
+    color: var(--darkTextColor);
+    cursor: pointer;
+}
+.submit-btn-div button:disabled,
+.submit-btn-div button[disabled]{
+  background-color: #cccccc;
+  color: #666666;
+  cursor: pointer;
+}
+.length-message{
+    margin: 20px 0;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: var(--darkAccentColor);
+}
